@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "commit-reminder": {
+      "hosting": {
+        "commit-reminder": [
+          "commit-reminder"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+<h1>1일 1커밋 합시다</h1>
+
+<h2>거 이메일이 뭐요?</h2>
+
+<input
+  #newEmail
+  (keyup.enter)="addEmail(newEmail.value)"
+  (blur)="addEmail(newEmail.value); newEmail.value = ''"
+/>
+
+<button (click)="addEmail(newEmail.value)">이메일 등록</button>
+
+<ul>
+  <li *ngFor="let email of emails">{{ email }}</li>
+</ul>

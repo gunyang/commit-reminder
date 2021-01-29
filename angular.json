@@ -120,9 +120,16 @@
               "devServerTarget": "commit-reminder:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
     }
   },
-  "defaultProject": "commit-reminder"
+  "defaultProject": "commit-reminder",
+  "cli": {
+    "analytics": "ba87c14e-86c7-425f-b310-c5e4159ffbf2"
+  }
 }
